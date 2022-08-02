@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{weather-app-independence.vercel.app}">
+    <a href="https://weather-app-independence.vercel.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{weather-app-independence.vercel.app}">
+    <a href="https://{weather-app-independence.vercel.app">
       Solution
     </a>
     <span> | </span>
