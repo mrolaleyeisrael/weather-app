@@ -88,6 +88,6 @@ $ yarn start
 
 - Website [weather-app-independence.vercel.app](https://{weather-app-independence.vercel.app})
 - GitHub [@mrolaleyeisrael]({github.com/mrolaleyeisrael})
-- Twitter [@mrolaleyeisrael]({twitter.com/mrolaleyeisrael})
+- Twitter [@mrolaleyeisrael](https://{twitter.com/mrolaleyeisrael})
 
 
