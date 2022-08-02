@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://weather-app-independence.vercel.app" target="_blank>
+    <a href="https://weather-app-independence.vercel.app" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://weather-app-independence.vercel.app" target="_blank >
+    <a href="https://github.com/mrolaleyeisrael/weather-app" target="_blank">
       Solution
     </a>
     <span> | </span>
