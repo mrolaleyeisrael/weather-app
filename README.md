@@ -87,7 +87,7 @@ $ yarn start
 ## Contact
 
 - Website [weather-app-independence.vercel.app](https://{weather-app-independence.vercel.app})
-- GitHub [@mrolaleyeisrael]({github.com/mrolaleyeisrael})
-- Twitter [@mrolaleyeisrael](https://{twitter.com/mrolaleyeisrael})
+- GitHub [@mrolaleyeisrael](https://github.com/mrolaleyeisrael)
+- Twitter [@mrolaleyeisrael](https://twitter.com/mrolaleyeisrael)
 
 
