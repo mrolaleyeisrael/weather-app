@@ -1,31 +1,28 @@
 // import logo from './logo.svg';
 import Main from "./components/Main";
 import SideBar from './components/sidebar/SideBar.jsx'
-import { AppContext } from "./context/Context";
+import AppContextProvider from "./context/Context";
 
 function App() {
 
   return (
     <div className="App">
 
-      <AppContext.Provider
-        value={{
+      <AppContextProvider>
 
-        }}
-      >
 
-        <div className=" flex flex-col min-h-screen md:flex-row font-[Raleway]">
+        <div className=" flex flex-col h-full md:flex-row font-[Raleway]">
 
-          <div className=" w-full md:w-[30%]">
+          <div className=" h-screen  w-full md:w-[30%]">
             <SideBar />
           </div>
 
-          <div className=" w-full md:w-[70%]" >
+          <div className="  w-full md:w-[70%]" >
             <Main />
           </div>
 
         </div>
-      </AppContext.Provider>
+      </AppContextProvider>
 
 
     </div>

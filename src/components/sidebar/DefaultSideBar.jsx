@@ -24,7 +24,7 @@ const images = importAllImagesFromDirectory(
 
 const DefaultSideBar = ({ setNavBar }) => {
 	return (
-		<div className=' bg-color1 h-screen relative overflow-hidden'>
+		<div className=' bg-color1 h-full relative md:w-[30%] md:fixed overflow-hidden'>
 			<div className=' flex justify-between items-center pt-[18px] px-[11px]  '>
 				<button
 					onClick={() => setNavBar("search")}

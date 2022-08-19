@@ -4,7 +4,7 @@ import { MdOutlineArrowForwardIos, MdOutlineClose } from "react-icons/md";
 
 const SearchSideBar = ({ setNavBar }) => {
 	return (
-		<div className=' relative bg-color1 md:h-screen'>
+		<div className=' relative bg-color1 md:fixed md:w-[30%] md:h-screen'>
 			<MdOutlineClose onClick={() => setNavBar('default')} className=' absolute right-4 top-4 text-lg cursor-pointer font-bold ' />
 			<div className=' flex flex-col py-14 px-3 '>
 				<form className='w-full mb-[38px] flex justify-between'>
@@ -32,6 +32,8 @@ const SearchSideBar = ({ setNavBar }) => {
 						<p>London</p>
 						<MdOutlineArrowForwardIos />
 					</div>
+
+
 				</div>
 			</div>
 		</div>
