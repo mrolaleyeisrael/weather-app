@@ -2,8 +2,8 @@
 import { useState, useEffect, useContext } from "react";
 
 // contexts
-
 import AppContext from "../../context/Context";
+
 
 import { BiCurrentLocation } from "react-icons/bi";
 import { MdLocationOn } from "react-icons/md";
@@ -23,6 +23,17 @@ const images = importAllImagesFromDirectory(
 
 
 const DefaultSideBar = ({ setNavBar }) => {
+	const app = useContext(AppContext)
+
+	const date = new Date().toLocaleDateString("en-gb", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+  });
+
+	const [actualWeatherInformations, setActualWeatherInformations] = useState(
+    {}
+  );
 	return (
 		<div className=' bg-color1 h-full relative md:w-[30%] md:fixed overflow-hidden'>
 			<div className=' flex justify-between items-center pt-[18px] px-[11px]  '>

@@ -10,7 +10,6 @@ function App() {
 
       <AppContextProvider>
 
-
         <div className=" flex flex-col h-full md:flex-row font-[Raleway]">
 
           <div className=" h-screen  w-full md:w-[30%]">
