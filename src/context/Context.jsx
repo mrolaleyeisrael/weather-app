@@ -18,6 +18,7 @@ const AppContextProvider = ({ children }) => {
   useEffect (() =>{
     if(navigator.geolocation){
       console.log("Location is enabled");
+      console.log(API_KEY);
     }
   }, [])
 
